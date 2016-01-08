@@ -1,0 +1,28 @@
+body {
+	background-color: #D2527F;
+	color: white;
+}
+
+.container {
+	margin: 0;
+	width: 100%;
+}
+
+main {
+	background-color: #59ABE3;
+	padding: 10px;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.navbar-brand {
+	font-size: 36px;
+}
+
+hr {
+	height: 3px;
+}
+
+.form-control {
+	width: 90%;
+}
