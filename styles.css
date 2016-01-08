@@ -8,6 +8,12 @@ body {
 	width: 100%;
 }
 
+.meme-image {
+	background-image: url('https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350');
+	height: 350px;
+	width: 350px;
+}
+
 main {
 	background-color: #59ABE3;
 	padding: 10px;
@@ -33,4 +39,11 @@ footer {
 
 button {
 	margin-right: 20px;
+}
+
+@media(max-width: 400px) {
+	.meme-image {
+		height: 250px;
+		width: 250px;
+	}
 }
