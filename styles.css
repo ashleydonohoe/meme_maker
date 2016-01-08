@@ -4,8 +4,7 @@ body {
 }
 
 .container {
-	margin: 0;
-	padding: 10px;
+	margin: 10px;
 	width: 100%;
 }
 
@@ -16,6 +15,9 @@ body {
 	position: relative;
 	font-weight: bold;
 	text-shadow: 2px 2px black;
+	background-position: center center;
+	background-repeat: none;
+	background-size: cover;
 }
 
 main {
@@ -54,9 +56,9 @@ button {
 }
 
 .meme-top {
-	margin-top: 15px;
+	margin-top: 20px;
 }
 
 .meme-bottom {
-	margin-top: 230px;
+	margin-top: 250px;
 }

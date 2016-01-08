@@ -12,6 +12,7 @@ $(document).ready(function() {
 	});
 	$('#clear').click(function() {
 		$('.meme-image').remove();
+		return true;
 
 	});
 	/* Taken from http://stackoverflow.com/questions/4078245/onsubmit-return-false-has-no-effect-on-internet-explorer-7-8-form-is-still-su */
